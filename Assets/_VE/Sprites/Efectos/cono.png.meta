@@ -1,0 +1,2718 @@
+fileFormatVersion: 2
+guid: 1f5489a1635a8e84cafb52e81da5d8cb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cono_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7447.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3108e2deef133c449b8809f5bd5b5984
+      internalID: 1435091335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_1
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 7447.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bad2f3dfe0d904a87df74912853e93
+      internalID: -438576929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_2
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 7447.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1a0ecf3b71df142b8ef93e4de2d1a6
+      internalID: 543258873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_3
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 7447.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d284d5074d9f9f4e90e5ef55169362a
+      internalID: 81914505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_4
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 7447.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96779ef50b2cff447930e9d22053ab42
+      internalID: -1349948740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_5
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 7447.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a91da8bd3409b4b8962585d74a3066
+      internalID: 526028548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_6
+      rect:
+        serializedVersion: 2
+        x: 4464
+        y: 7447.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08a15b54b0f5964bb353af942fe64d1
+      internalID: -1802653723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_7
+      rect:
+        serializedVersion: 2
+        x: 5208
+        y: 7447.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac5f68a58d9ce349a1796f2547a1a4d
+      internalID: -461048162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_8
+      rect:
+        serializedVersion: 2
+        x: 5952
+        y: 7447.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d508959dbf09243b45d1ff2cd07c59
+      internalID: 1260490111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_9
+      rect:
+        serializedVersion: 2
+        x: 6696
+        y: 7447.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86058c8e5ada78f46acd71796d384e1e
+      internalID: -1896112075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_10
+      rect:
+        serializedVersion: 2
+        x: 7440
+        y: 7447.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0630970b4b4be184582cfdca0716cf56
+      internalID: -1955076291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6703.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2260aaed97d6c8448ae30cfd493f899a
+      internalID: 2018580375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_12
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 6703.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4fc29b00bb58242a0010e6bc74ba62
+      internalID: -169385483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_13
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 6703.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0daab54b9296f4982fb4b57f59ab1e
+      internalID: -583212844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_14
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 6703.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78718321871fa549ba8515a94b056f2
+      internalID: -1005684006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_15
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 6703.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a8182920abd88429b1976e772e69bb
+      internalID: 1631547079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_16
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 6703.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcca0364f5a2c554e9c60c3c015f333f
+      internalID: 265162598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_17
+      rect:
+        serializedVersion: 2
+        x: 4464
+        y: 6703.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc350c2c7c79134484d67a2f890b1b9
+      internalID: 1277837853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_18
+      rect:
+        serializedVersion: 2
+        x: 5208
+        y: 6703.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4e39fd587f2e1419747d4c95bc4c54
+      internalID: 280458770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_19
+      rect:
+        serializedVersion: 2
+        x: 5952
+        y: 6703.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083ab533fd0d62a4ba0d2e812bebd713
+      internalID: -2022616534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_20
+      rect:
+        serializedVersion: 2
+        x: 6696
+        y: 6703.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3325521b2e9fc5549914c48eca9ae793
+      internalID: -1857373468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_21
+      rect:
+        serializedVersion: 2
+        x: 7440
+        y: 6703.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0913033b0c4d6d44aba85c1757137fe0
+      internalID: 1645634199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5959.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e0d61b39192934fb7fde90a8cb819e
+      internalID: -103107564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_23
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 5959.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3584d7b2cb62b849acec1a8a502c427
+      internalID: 109833694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_24
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 5959.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8151f6b5ace0f474ca52ebaca9a65a4e
+      internalID: -872076236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_25
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 5959.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6484e2fe3497634b8e06f78d18cf9db
+      internalID: 1048870615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_26
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 5959.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf98bc5616dc1aa409250ba73a3faff8
+      internalID: -1582282499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_27
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 5959.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924c6fed9c6499e489c54bd00b2383ff
+      internalID: 370746644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_28
+      rect:
+        serializedVersion: 2
+        x: 4464
+        y: 5959.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5f05305e204424fb150326cc86a407
+      internalID: -1823955536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_29
+      rect:
+        serializedVersion: 2
+        x: 5208
+        y: 5959.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d21b2e0ef211f46902db47af330805
+      internalID: 1851079248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_30
+      rect:
+        serializedVersion: 2
+        x: 5952
+        y: 5959.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921b13023bf578641902919f640b8a93
+      internalID: 161251765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_31
+      rect:
+        serializedVersion: 2
+        x: 6696
+        y: 5959.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41ce59a14137e643a1ad0d39389e218
+      internalID: 891725590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_32
+      rect:
+        serializedVersion: 2
+        x: 7440
+        y: 5959.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8457bc83f1d9524898b5ab4cc8f5d07
+      internalID: 1240235017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5215.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d263a6bb989e66d4fbb89050b6a893d0
+      internalID: 699566872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_34
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 5215.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3355214bbbb04e42a3727a0e5cc8f1b
+      internalID: -241855204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_35
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 5215.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a6454bf4b36d14382a1ff449fa695e
+      internalID: -751353410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_36
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 5215.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcc7416a3f312b4095c6c5a0e82e622
+      internalID: -1819013634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_37
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 5215.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1f144f48e5cbd4ab8b77f18c9da129
+      internalID: -1624585290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_38
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 5215.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7e4521b12c63946afd4271fca1ca08
+      internalID: -1189244776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_39
+      rect:
+        serializedVersion: 2
+        x: 4464
+        y: 5215.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74d49dd7b57b494facd5f0972715a75
+      internalID: -1720602302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_40
+      rect:
+        serializedVersion: 2
+        x: 5208
+        y: 5215.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba10374b27ff8349beacdbabcd0da7a
+      internalID: -211294702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_41
+      rect:
+        serializedVersion: 2
+        x: 5952
+        y: 5215.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da178751f6e876b459438f1147378292
+      internalID: 329832651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_42
+      rect:
+        serializedVersion: 2
+        x: 6696
+        y: 5215.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9329e01ce37c39449b5de3713b493aed
+      internalID: 1093006557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_43
+      rect:
+        serializedVersion: 2
+        x: 7440
+        y: 5215.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2a35e72b086fa4182a5cd9bfe4c34c
+      internalID: 950030080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4471.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4463f9a3629ff204093342b6cb663f92
+      internalID: -366872370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_45
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 4471.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228d2fec5894c564aa4639f2d30830aa
+      internalID: 1178916088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_46
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 4471.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b4182523bdbd6488173c2a262d7dca
+      internalID: -2035600284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_47
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 4471.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123f406c6a436db4d897db55e35ab5b2
+      internalID: -1487072732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_48
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 4471.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a11ec51ef8e9984ab2e984da3d3e06a
+      internalID: -939466536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_49
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 4471.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafa5c760f489f44d9e2bddb9bb0d9d5
+      internalID: 2078584911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_50
+      rect:
+        serializedVersion: 2
+        x: 4464
+        y: 4471.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea11b4ccb5342a449b57860b137555c
+      internalID: 1146518592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_51
+      rect:
+        serializedVersion: 2
+        x: 5208
+        y: 4471.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99854940764be6429392079b93accda
+      internalID: 819574950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_52
+      rect:
+        serializedVersion: 2
+        x: 5952
+        y: 4471.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a4d1c168fb37940bdbfb0a8212b9db
+      internalID: 23619059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_53
+      rect:
+        serializedVersion: 2
+        x: 6696
+        y: 4471.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06911cffe13429b498fd637fbcc470e5
+      internalID: -386618136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_54
+      rect:
+        serializedVersion: 2
+        x: 7440
+        y: 4471.2725
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d1fa6e143906043aa8997acf2f38a7
+      internalID: 1625354788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3727.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85053de61093b784895649526aa5e76e
+      internalID: -986915521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_56
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 3727.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4eb6138aeab724a85be21898d65430
+      internalID: 1075192835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_57
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 3727.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30aad4894690c44a8f15c02665eb7da
+      internalID: -1697817548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_58
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 3727.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609f861b7b7423b4e8e5da5e958ae9c4
+      internalID: -864725386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_59
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 3727.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d01dfc2650f80948baefdb811c78e76
+      internalID: 1722573045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_60
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 3727.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e704f47132ed65b4586371361948322e
+      internalID: -1834995163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_61
+      rect:
+        serializedVersion: 2
+        x: 4464
+        y: 3727.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04b01dadb505fc449b8a49ff8d186bc
+      internalID: -2002657804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_62
+      rect:
+        serializedVersion: 2
+        x: 5208
+        y: 3727.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d568ecd3bda5c4145899c0a9937e6b2f
+      internalID: -169509558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_63
+      rect:
+        serializedVersion: 2
+        x: 5952
+        y: 3727.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea981da806af244e999ffcd4c83679b
+      internalID: 847984398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_64
+      rect:
+        serializedVersion: 2
+        x: 6696
+        y: 3727.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c3a494cf4f7644ebe1a85bc7f77cf2
+      internalID: 734710743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_65
+      rect:
+        serializedVersion: 2
+        x: 7440
+        y: 3727.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0b0c20fd7403d438bbf53ab2f4de81
+      internalID: 398019219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2983.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51364944c6b06ee41a54b841915eff35
+      internalID: 2084366465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_67
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 2983.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371e70bc5c369c64ca3cec7c55ec19fc
+      internalID: -297930149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_68
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 2983.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df15c2eee197ea4492f58e00e5f34ab
+      internalID: -1553756758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_69
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 2983.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7b2bd8ef3f6e0428497a09c4e0dc82
+      internalID: 2058830507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_70
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 2983.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f717f295e3eef04c93778d81201ada9
+      internalID: -1343973313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_71
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 2983.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c963c17da0e4846bdd677753ea849c
+      internalID: -986585889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_72
+      rect:
+        serializedVersion: 2
+        x: 4464
+        y: 2983.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e325f5b7aabfbfa4a8b7d89464bec47c
+      internalID: -191030568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_73
+      rect:
+        serializedVersion: 2
+        x: 5208
+        y: 2983.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9282f7f79049a5f4b82d545ce4db0f1f
+      internalID: -859902731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_74
+      rect:
+        serializedVersion: 2
+        x: 5952
+        y: 2983.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9c68a87b5a4bf4d8840a2d32b006b3
+      internalID: -1403967140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_75
+      rect:
+        serializedVersion: 2
+        x: 6696
+        y: 2983.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b39ee016e49d1249bae463eb763c330
+      internalID: -706298411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_76
+      rect:
+        serializedVersion: 2
+        x: 7440
+        y: 2983.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f18e557dcecee499edc06762dce72e
+      internalID: -1341886328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2239.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76e970049c18ca43a1acdc3dc1fb870
+      internalID: -1155045480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_78
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 2239.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4cd2d89b06a55d4a9bc7764f6a542f9
+      internalID: -691919150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_79
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 2239.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9996b3dd4dfbe2e42a90be108bf9447b
+      internalID: -2021250229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_80
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 2239.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e334283a12c63374389d08a2d9aed341
+      internalID: 1022722789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_81
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 2239.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22647c9c7af4a8a42b0f4528155fe01c
+      internalID: 866787358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_82
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 2239.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd1ddd0089b2c84eafd1312a0be6ce8
+      internalID: 959311956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_83
+      rect:
+        serializedVersion: 2
+        x: 4464
+        y: 2239.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1886c25271e91c4e8efed0b0a56a2a6
+      internalID: 21982011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_84
+      rect:
+        serializedVersion: 2
+        x: 5208
+        y: 2239.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d304b83dd176d4bbfb9c8e775da737
+      internalID: 952955107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_85
+      rect:
+        serializedVersion: 2
+        x: 5952
+        y: 2239.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc955b0ea33cba4c9b8e2e1f9803178
+      internalID: -1313469338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_86
+      rect:
+        serializedVersion: 2
+        x: 6696
+        y: 2239.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c907c4a194faf6b4493ae7bdb43c6bd9
+      internalID: -1813966790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_87
+      rect:
+        serializedVersion: 2
+        x: 7440
+        y: 2239.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00401d41feade0e4996652b1a285e552
+      internalID: 1084831704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1495.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab80cde25071754c9f8c91002516383
+      internalID: -1260206981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_89
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1495.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19dab1fa0a9ae634cba812d3a98994c2
+      internalID: 288551739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_90
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1495.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76572027dd4a6b94790b3a444b2f6a5f
+      internalID: -436659631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_91
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 1495.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155be0b635505904394d760e7720be16
+      internalID: -242329770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_92
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 1495.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd2f83141c7d8d42a0ac526a4643d45
+      internalID: -126845431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_93
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 1495.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac29d3b521b4e0c45a08cb218888ab6c
+      internalID: -170032071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_94
+      rect:
+        serializedVersion: 2
+        x: 4464
+        y: 1495.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cf9927ae0a631449c01adef07a0931
+      internalID: -114749088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_95
+      rect:
+        serializedVersion: 2
+        x: 5208
+        y: 1495.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f7be7f74e9c624b96c0e497bf4f86a
+      internalID: 1341858360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_96
+      rect:
+        serializedVersion: 2
+        x: 5952
+        y: 1495.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5abc01f62ce2844b9ca6f2072bec1c
+      internalID: 783259169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_97
+      rect:
+        serializedVersion: 2
+        x: 6696
+        y: 1495.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91785f08760e9da42b2fc186caa0a847
+      internalID: -774132156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_98
+      rect:
+        serializedVersion: 2
+        x: 7440
+        y: 1495.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca13cbb4c12c2e94ebd5cdcf4a364f58
+      internalID: -1581929822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 751.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c46cb60783c55e4ab4ddfabd0c6114b
+      internalID: -786101112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_100
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 751.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c156ce007d8d4f48939f0b81334b67f
+      internalID: -628926639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_101
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 751.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afbed4cb6c1f8a4ba7ddecf23609bb8
+      internalID: 2116000336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_102
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 751.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b6283cfe6d23843bd4371014b8f146
+      internalID: 916267065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_103
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 751.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345d7c569d04fba488ff72c3a084d894
+      internalID: 447848668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_104
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 751.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e1355a3580dd54b9276fbd9911072a
+      internalID: -1080264164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_105
+      rect:
+        serializedVersion: 2
+        x: 4464
+        y: 751.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd636090f1edd5478a09c4db4bb320b
+      internalID: 2092287019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_106
+      rect:
+        serializedVersion: 2
+        x: 5208
+        y: 751.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d0b8396f363cd4c8ef47d1e538f3eb
+      internalID: -403377365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_107
+      rect:
+        serializedVersion: 2
+        x: 5952
+        y: 751.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a326ca41374c8419fe35b41eced87c
+      internalID: -490955494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_108
+      rect:
+        serializedVersion: 2
+        x: 6696
+        y: 751.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5377adb92752340b6d948f318c87d0
+      internalID: -338931243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_109
+      rect:
+        serializedVersion: 2
+        x: 7440
+        y: 751.2727
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60b712603940484786bb716d48acab9
+      internalID: 2130194697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7.272705
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279fe63eff69ddb41bc2ae0e416f6ab5
+      internalID: -1032937068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_111
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 7.272705
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc77bb3f7e03f83419d7fa30de302af8
+      internalID: -453718122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_112
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 7.272705
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef9c1e340034f049aa643222dad4c20
+      internalID: -1165509129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_113
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 7.272705
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbab2f6024bb7084cad98afb542af8a1
+      internalID: -2126185518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_114
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 7.272705
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e843240ebc6b094bbfb06bbdd05e316
+      internalID: -2042942332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_115
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 7.272705
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe95ed516b7775e45931802488597ed4
+      internalID: 1455065276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_116
+      rect:
+        serializedVersion: 2
+        x: 4464
+        y: 7.272705
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedfa8cc36b649e43b9f75fd2eebc156
+      internalID: -1197525704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cono_117
+      rect:
+        serializedVersion: 2
+        x: 5208
+        y: 7.272705
+        width: 744.7273
+        height: 744.7273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5954d8e626aa817419a3241dfe8424bf
+      internalID: -1637631519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cono_85: -1313469338
+      cono_8: 1260490111
+      cono_38: -1189244776
+      cono_76: -1341886328
+      cono_2: 543258873
+      cono_93: -170032071
+      cono_56: 1075192835
+      cono_104: -1080264164
+      cono_29: 1851079248
+      cono_45: 1178916088
+      cono_87: 1084831704
+      cono_90: -436659631
+      cono_51: 819574950
+      cono_59: 1722573045
+      cono_52: 23619059
+      cono_77: -1155045480
+      cono_98: -1581929822
+      cono_19: -2022616534
+      cono_12: -169385483
+      cono_58: -864725386
+      cono_105: 2092287019
+      cono_3: 81914505
+      cono_50: 1146518592
+      cono_14: -1005684006
+      cono_48: -939466536
+      cono_44: -366872370
+      cono_78: -691919150
+      cono_57: -1697817548
+      cono_81: 866787358
+      cono_9: -1896112075
+      cono_35: -751353410
+      cono_40: -211294702
+      cono_6: -1802653723
+      cono_67: -297930149
+      cono_41: 329832651
+      cono_34: -241855204
+      cono_60: -1834995163
+      cono_20: -1857373468
+      cono_7: -461048162
+      cono_113: -2126185518
+      cono_27: 370746644
+      cono_0: 1435091335
+      cono_31: 891725590
+      cono_73: -859902731
+      cono_92: -126845431
+      cono_32: 1240235017
+      cono_117: -1637631519
+      cono_79: -2021250229
+      cono_55: -986915521
+      cono_23: 109833694
+      cono_30: 161251765
+      cono_24: -872076236
+      cono_15: 1631547079
+      cono_53: -386618136
+      cono_86: -1813966790
+      cono_36: -1819013634
+      cono_88: -1260206981
+      cono_75: -706298411
+      cono_107: -490955494
+      cono_16: 265162598
+      cono_63: 847984398
+      cono_37: -1624585290
+      cono_89: 288551739
+      cono_82: 959311956
+      cono_61: -2002657804
+      cono_43: 950030080
+      cono_64: 734710743
+      cono_74: -1403967140
+      cono_68: -1553756758
+      cono_54: 1625354788
+      cono_62: -169509558
+      cono_69: 2058830507
+      cono_94: -114749088
+      cono_22: -103107564
+      cono_25: 1048870615
+      cono_110: -1032937068
+      cono_21: 1645634199
+      cono_99: -786101112
+      cono_103: 447848668
+      cono_72: -191030568
+      cono_4: -1349948740
+      cono_91: -242329770
+      cono_46: -2035600284
+      cono_114: -2042942332
+      cono_5: 526028548
+      cono_101: 2116000336
+      cono_11: 2018580375
+      cono_108: -338931243
+      cono_71: -986585889
+      cono_18: 280458770
+      cono_1: -438576929
+      cono_102: 916267065
+      cono_10: -1955076291
+      cono_39: -1720602302
+      cono_70: -1343973313
+      cono_65: 398019219
+      cono_111: -453718122
+      cono_109: 2130194697
+      cono_84: 952955107
+      cono_80: 1022722789
+      cono_33: 699566872
+      cono_66: 2084366465
+      cono_26: -1582282499
+      cono_28: -1823955536
+      cono_42: 1093006557
+      cono_97: -774132156
+      cono_49: 2078584911
+      cono_106: -403377365
+      cono_112: -1165509129
+      cono_116: -1197525704
+      cono_83: 21982011
+      cono_13: -583212844
+      cono_115: 1455065276
+      cono_17: 1277837853
+      cono_100: -628926639
+      cono_47: -1487072732
+      cono_96: 783259169
+      cono_95: 1341858360
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

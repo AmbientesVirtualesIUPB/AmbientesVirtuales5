@@ -1,0 +1,518 @@
+fileFormatVersion: 2
+guid: c4e8354895046184fbeaef5668b06414
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet_HOMBRE4_STANDING_CLAP_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1228.5
+        width: 409.6
+        height: 409.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc818c1c3feebbd4db701869c22f5ce1
+      internalID: -1296958895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HOMBRE4_STANDING_CLAP_1
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1228.5
+        width: 409.6
+        height: 409.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adacc35c9c6146d468acb7094125040c
+      internalID: 250606545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HOMBRE4_STANDING_CLAP_2
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1228.5
+        width: 409.6
+        height: 409.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3862a9fa02d63e64aa0c595ef593ab36
+      internalID: 1381981282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HOMBRE4_STANDING_CLAP_3
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 1228.5
+        width: 409.6
+        height: 409.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5590a310546bee642b1a4aed62cd0d6f
+      internalID: 857659800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HOMBRE4_STANDING_CLAP_4
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1228.5
+        width: 409.6
+        height: 409.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500364121c7d53e468a522e332d154cf
+      internalID: -490726163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HOMBRE4_STANDING_CLAP_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 819.5
+        width: 409.6
+        height: 409.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162b8d402e7646944a2ba756197eab08
+      internalID: -1565653462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HOMBRE4_STANDING_CLAP_6
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 819.5
+        width: 409.6
+        height: 409.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d07615cfb0c8d4e8e139c8fde8d73a
+      internalID: -1264983838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HOMBRE4_STANDING_CLAP_7
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 819.5
+        width: 409.6
+        height: 409.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9bb0b52aeb52b04c8cb91316d6db9d3
+      internalID: -811190772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HOMBRE4_STANDING_CLAP_8
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 819.5
+        width: 409.6
+        height: 409.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721f19150f1d0c8438fc4264d4a4e15b
+      internalID: 2099947729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HOMBRE4_STANDING_CLAP_9
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 819.5
+        width: 409.6
+        height: 409.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dca4beff6751b2409dfbc35bcd5b116
+      internalID: 20003380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HOMBRE4_STANDING_CLAP_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 410.5
+        width: 409.6
+        height: 409.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c32c9eaa602259458eb64138ddbf9fe
+      internalID: 2097647494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HOMBRE4_STANDING_CLAP_11
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 410.5
+        width: 409.6
+        height: 409.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec56de4702af90145ad1c902b800188e
+      internalID: 1977927604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HOMBRE4_STANDING_CLAP_12
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 410.5
+        width: 409.6
+        height: 409.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6d35752586b2444b52e883bd50fd6c
+      internalID: -677209431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HOMBRE4_STANDING_CLAP_13
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 410.5
+        width: 409.6
+        height: 409.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfa3dda03a48d247af50a7bd4c8f928
+      internalID: 1176472636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HOMBRE4_STANDING_CLAP_14
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 410.5
+        width: 409.6
+        height: 409.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0c7a6ffcbe1394fab3279bf75416df
+      internalID: -1850419740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HOMBRE4_STANDING_CLAP_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.5
+        width: 409.6
+        height: 409.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c028198695e751041ac75dc91b4edbb7
+      internalID: -472463343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HOMBRE4_STANDING_CLAP_16
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1.5
+        width: 409.6
+        height: 409.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdac3bbe3da0d3478135ac9ea402512
+      internalID: 1751177637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HOMBRE4_STANDING_CLAP_17
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1.5
+        width: 409.6
+        height: 409.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39eedd905afc60e4d9bb910ad2f4911d
+      internalID: -178477338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 19d9c46ff4b4a0f4d966d3d0c1f5d739
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spritesheet_HOMBRE4_STANDING_CLAP_16: 1751177637
+      spritesheet_HOMBRE4_STANDING_CLAP_10: 2097647494
+      spritesheet_HOMBRE4_STANDING_CLAP_2: 1381981282
+      spritesheet_HOMBRE4_STANDING_CLAP_0: -1296958895
+      spritesheet_HOMBRE4_STANDING_CLAP_13: 1176472636
+      spritesheet_HOMBRE4_STANDING_CLAP_12: -677209431
+      spritesheet_HOMBRE4_STANDING_CLAP_6: -1264983838
+      spritesheet_HOMBRE4_STANDING_CLAP_1: 250606545
+      spritesheet_HOMBRE4_STANDING_CLAP_17: -178477338
+      spritesheet_HOMBRE4_STANDING_CLAP_4: -490726163
+      spritesheet_HOMBRE4_STANDING_CLAP_15: -472463343
+      spritesheet_HOMBRE4_STANDING_CLAP_14: -1850419740
+      spritesheet_HOMBRE4_STANDING_CLAP_8: 2099947729
+      spritesheet_HOMBRE4_STANDING_CLAP_9: 20003380
+      spritesheet_HOMBRE4_STANDING_CLAP_3: 857659800
+      spritesheet_HOMBRE4_STANDING_CLAP_11: 1977927604
+      spritesheet_HOMBRE4_STANDING_CLAP_5: -1565653462
+      spritesheet_HOMBRE4_STANDING_CLAP_7: -811190772
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

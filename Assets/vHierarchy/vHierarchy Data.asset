@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9752b0c8e144801967e6897679604b, type: 3}
+  m_Name: vHierarchy Data
+  m_EditorClassIdentifier: 
+  sceneDatas_byGuid:
+    keys:
+    - 0e0a7a819eb0afe46868d7ff5b6921dc
+    - f768b15cc3db25d4bb452994596c751b
+    - e0e8dc988a5e7444ea358d279f436feb
+    - 99c9720ab356a0642a771bea13969a05
+    - bc2601099b95fe1499aa10d66c02eb22
+    - 
+    - 02bf82f0b6fe0b14b9299c65c339f6c6
+    - 1e7555433f15342419a7f2f599ff24c6
+    - 212541997afe93441ad572c23c364583
+    - 469e46b2ef176034889461de993f24af
+    - c204b316c1006c6409cbdd57504e28cb
+    - ba2097ce6d8de3246bd731d618cc3c44
+    - 326da3282a3517e419f467f02c2e083d
+    - 942f7528b7452c84ca38607e47d946e3
+    - 211ca8a18014b2144b2c3b59881bbc53
+    values:
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-2-0e0a7a819eb0afe46868d7ff5b6921dc-854012911-0
+        - globalObjectIdString: GlobalObjectId_V1-2-0e0a7a819eb0afe46868d7ff5b6921dc-1175316008-0
+        - globalObjectIdString: GlobalObjectId_V1-2-0e0a7a819eb0afe46868d7ff5b6921dc-65220153-0
+        - globalObjectIdString: GlobalObjectId_V1-2-0e0a7a819eb0afe46868d7ff5b6921dc-1033550794-0
+        values:
+        - colorIndex: 0
+          iconNameOrGuid: AudioReverbZone Icon
+        - colorIndex: 0
+          iconNameOrGuid: Settings Icon
+        - colorIndex: 0
+          iconNameOrGuid: AvatarMask On Icon
+        - colorIndex: 0
+          iconNameOrGuid: EventSystem Icon
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-2-f768b15cc3db25d4bb452994596c751b-97356386-0
+        - globalObjectIdString: GlobalObjectId_V1-2-f768b15cc3db25d4bb452994596c751b-1860676709-0
+        - globalObjectIdString: GlobalObjectId_V1-2-f768b15cc3db25d4bb452994596c751b-1671337981-0
+        - globalObjectIdString: GlobalObjectId_V1-2-f768b15cc3db25d4bb452994596c751b-1994512063-0
+        values:
+        - colorIndex: 0
+          iconNameOrGuid: Favorite
+        - colorIndex: 0
+          iconNameOrGuid: Favorite
+        - colorIndex: 0
+          iconNameOrGuid: Favorite
+        - colorIndex: 0
+          iconNameOrGuid: AudioReverbZone Icon
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-2-e0e8dc988a5e7444ea358d279f436feb-1397131813-0
+        - globalObjectIdString: GlobalObjectId_V1-2-e0e8dc988a5e7444ea358d279f436feb-1994512063-0
+        values:
+        - colorIndex: 0
+          iconNameOrGuid: ReflectionProbe Icon
+        - colorIndex: 0
+          iconNameOrGuid: AudioReverbZone Icon
+    - goDatas_byGlobalId:
+        keys: []
+        values: []
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-2-bc2601099b95fe1499aa10d66c02eb22-1178084543-0
+        - globalObjectIdString: GlobalObjectId_V1-2-bc2601099b95fe1499aa10d66c02eb22-232273199-0
+        values:
+        - colorIndex: 0
+          iconNameOrGuid: AudioReverbZone Icon
+        - colorIndex: 0
+          iconNameOrGuid: Settings Icon
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-2-00000000000000000000000000000000-1310239463-0
+        - globalObjectIdString: GlobalObjectId_V1-2-00000000000000000000000000000000-874154177-0
+        values:
+        - colorIndex: 0
+          iconNameOrGuid: AudioReverbZone Icon
+        - colorIndex: 0
+          iconNameOrGuid: AudioReverbZone Icon
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-2-02bf82f0b6fe0b14b9299c65c339f6c6-1310239463-0
+        - globalObjectIdString: GlobalObjectId_V1-2-02bf82f0b6fe0b14b9299c65c339f6c6-1024907470-0
+        values:
+        - colorIndex: 0
+          iconNameOrGuid: AudioReverbZone Icon
+        - colorIndex: 0
+          iconNameOrGuid: ReflectionProbe Icon
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-2-1e7555433f15342419a7f2f599ff24c6-874154177-0
+        values:
+        - colorIndex: 4
+          iconNameOrGuid: AudioReverbZone Icon
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-2-212541997afe93441ad572c23c364583-9025534110481784363-758515908
+        - globalObjectIdString: GlobalObjectId_V1-2-212541997afe93441ad572c23c364583-1885672491-0
+        - globalObjectIdString: GlobalObjectId_V1-2-212541997afe93441ad572c23c364583-1154174831-0
+        - globalObjectIdString: GlobalObjectId_V1-2-212541997afe93441ad572c23c364583-648503193-0
+        - globalObjectIdString: GlobalObjectId_V1-2-212541997afe93441ad572c23c364583-1705717797-0
+        - globalObjectIdString: GlobalObjectId_V1-2-212541997afe93441ad572c23c364583-123713128-0
+        values:
+        - colorIndex: 0
+          iconNameOrGuid: AvatarMask On Icon
+        - colorIndex: 0
+          iconNameOrGuid: Folder Icon
+        - colorIndex: 0
+          iconNameOrGuid: Folder Icon
+        - colorIndex: 0
+          iconNameOrGuid: Camera Icon
+        - colorIndex: 0
+          iconNameOrGuid: Folder Icon
+        - colorIndex: 0
+          iconNameOrGuid: PreMatQuad
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-1-469e46b2ef176034889461de993f24af-9025534110481784363-0
+        values:
+        - colorIndex: 0
+          iconNameOrGuid: AvatarMask On Icon
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-1-c204b316c1006c6409cbdd57504e28cb-6251408664408701070-0
+        values:
+        - colorIndex: 0
+          iconNameOrGuid: AudioReverbZone Icon
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-2-ba2097ce6d8de3246bd731d618cc3c44-204031255058431085-210656806
+        values:
+        - colorIndex: 0
+          iconNameOrGuid: AudioReverbZone Icon
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-1-326da3282a3517e419f467f02c2e083d-204031255058431085-0
+        - globalObjectIdString: GlobalObjectId_V1-1-326da3282a3517e419f467f02c2e083d-204031254158749181-0
+        values:
+        - colorIndex: 0
+          iconNameOrGuid: AudioReverbZone Icon
+        - colorIndex: 0
+          iconNameOrGuid: Settings Icon
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-2-942f7528b7452c84ca38607e47d946e3-204031255058431085-960036672
+        values:
+        - colorIndex: 0
+          iconNameOrGuid: AudioReverbZone Icon
+    - goDatas_byGlobalId:
+        keys: []
+        values: []

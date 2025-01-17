@@ -4,5 +4,62 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_VE/Scenes/Constructores/C_Artcraft.unity
+    guid: fb499a139ccf88244a1872c987399af2
+  - enabled: 1
+    path: Assets/_VE/Scenes/Constructores/C_Lobby.unity
+    guid: 0ebebeb154294b5459e1837b7ddb0831
+  - enabled: 1
+    path: Assets/_VE/Scenes/Constructores/C_Login.unity
+    guid: 211ca8a18014b2144b2c3b59881bbc53
+  - enabled: 1
+    path: Assets/_VE/Scenes/Constructores/C_Personalizacion.unity
+    guid: 415aba4a38a52ac4f981fd0b13bb8394
+  - enabled: 1
+    path: Assets/_VE/Scenes/Constructores/C_Pista.unity
+    guid: 942f7528b7452c84ca38607e47d946e3
+  - enabled: 1
+    path: Assets/_VE/Scenes/Constructores/C_Taller.unity
+    guid: ba2097ce6d8de3246bd731d618cc3c44
+  - enabled: 1
+    path: Assets/_VE/Scenes/Graficos/Artcraft/LP_Artcraft.unity
+    guid: f9f35d32e7a8875499fc0233f83e5bd5
+  - enabled: 1
+    path: Assets/_VE/Scenes/Graficos/Lobby/LP_Lobby.unity
+    guid: 5df8f0525ca9860469dde0f5e19c2f70
+  - enabled: 1
+    path: Assets/_VE/Scenes/Graficos/Login/LP_Login.unity
+    guid: de43cba875160e042b3d95464dedf3bf
+  - enabled: 1
+    path: Assets/_VE/Scenes/Graficos/Personalizacion/LP_Personalizacion.unity
+    guid: cfd1d6ea5799729469a1f60ab2837d25
+  - enabled: 1
+    path: Assets/_VE/Scenes/Graficos/Pista/HP_Pista.unity
+    guid: 05f503d5301d10b488bd1b2760c59d5f
+  - enabled: 1
+    path: Assets/_VE/Scenes/Graficos/Taller Ensamble/HP_Taller.unity
+    guid: d0528939563310b409aeb98328a7a360
+  - enabled: 1
+    path: Assets/_VE/Scenes/Interactivos/WI_Artcraft.unity
+    guid: 7fd9e29a05a5ee74bba0bb8a41b3d155
+  - enabled: 1
+    path: Assets/_VE/Scenes/Interactivos/WI_Lobby.unity
+    guid: 3cb50d751fb7ed24ea2c30084433e1e0
+  - enabled: 1
+    path: Assets/_VE/Scenes/Interactivos/WI_Login.unity
+    guid: d18f3b6905bf02c41b3452346dc0ceae
+  - enabled: 1
+    path: Assets/_VE/Scenes/Interactivos/WI_Personalizacion.unity
+    guid: 212541997afe93441ad572c23c364583
+  - enabled: 1
+    path: Assets/_VE/Scenes/Interactivos/WI_Personalizacion3.unity
+    guid: e61898d55f8d624498bb636fafec55a3
+  - enabled: 1
+    path: Assets/_VE/Scenes/Interactivos/WI_Pista.unity
+    guid: 00d54c5ad0a49d447b4e4ab7e39b3336
+  - enabled: 1
+    path: Assets/_VE/Scenes/Interactivos/WI_Taller.unity
+    guid: b1443c414c5b29e4a90d6a6001aa77a3
   m_configObjects: {}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 727a75301c3d24613a3ebcec4a24c2c8, type: 3}
+  title: Ambientes virtuales
+  sections:
+  - heading: Equipo de desarrollo
+    text: Lorem ipsum mientras se me ocurre que poner acá
+    linkText: 
+    url:
+  - heading: Página del Servidor
+    text:
+    linkText: (Pendiente)
+    url: https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@latest
+  - heading: Documentación de las reglas de códificación
+    text:
+    linkText: Abrir documentación de reglas
+    url: https://docs.google.com/document/d/1KXhh7m3Svxx6wtUw0k5irtw6-LB02Xw7z2ViGbj5geM/edit?usp=sharing
+  - heading: Página de documentación
+    text:
+    linkText: Abir documentación del servidor
+    url: https://docs.google.com/document/d/1cr8I9HJC0A-eq3D_OLBuPGyV-wyXtLtCZsjzheI1BAI/edit
+  loadedLayout: 1
