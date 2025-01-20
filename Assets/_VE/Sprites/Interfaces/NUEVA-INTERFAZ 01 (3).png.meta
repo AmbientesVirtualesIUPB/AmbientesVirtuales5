@@ -3,7 +3,7 @@ guid: b00d145aeeb22574cad7c9c002be256c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -74,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -86,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -98,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -110,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -137,37 +144,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NUEVA-INTERFAZ 01 (3)_1
-      rect:
-        serializedVersion: 2
-        x: 1360
-        y: 1536
-        width: 652
-        height: 371
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25ed278ff05ba29439001b55c1e63064
-      internalID: -1430412714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: NUEVA-INTERFAZ 01 (3)_2
       rect:
         serializedVersion: 2
-        x: 1381
-        y: 1110
-        width: 608
-        height: 785
+        x: 1355
+        y: 1089
+        width: 659
+        height: 820
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 88, y: 519, z: 483, w: 159}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -209,7 +195,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 82, y: 95, z: 92, w: 96}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -251,7 +237,7 @@ TextureImporter:
         height: 222
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 68, y: 83, z: 79, w: 68}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -263,76 +249,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NUEVA-INTERFAZ 01 (3)_7
-      rect:
-        serializedVersion: 2
-        x: 1360
-        y: 1094
-        width: 652
-        height: 371
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d4505e80ff52ae4da9edba6e2f92c94
-      internalID: -1735837625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NUEVA-INTERFAZ 01 (3)_8
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 1309
-        width: 53
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e772d728edf111b4a8c9c6643994fd52
-      internalID: -284464583
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NUEVA-INTERFAZ 01 (3)_9
-      rect:
-        serializedVersion: 2
-        x: 316
-        y: 1240
-        width: 18
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 339ea4490becdbe43953e385b5dbd0e9
-      internalID: 727352083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: NUEVA-INTERFAZ 01 (3)_10
       rect:
         serializedVersion: 2
-        x: 319
-        y: 1242
-        width: 358
-        height: 63
+        x: 315
+        y: 1240
+        width: 362
+        height: 78
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,10 +273,10 @@ TextureImporter:
       name: NUEVA-INTERFAZ 01 (3)_11
       rect:
         serializedVersion: 2
-        x: 312
-        y: 1101
-        width: 369
-        height: 86
+        x: 314
+        y: 1104
+        width: 367
+        height: 81
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -377,7 +300,7 @@ TextureImporter:
         height: 209
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 72, y: 78, z: 72, w: 76}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -398,55 +321,13 @@ TextureImporter:
         height: 120
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 82, y: 34, z: 110, w: 30}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: ad81b091bef7eb84fa8b3e0994764116
       internalID: -1748319669
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NUEVA-INTERFAZ 01 (3)_14
-      rect:
-        serializedVersion: 2
-        x: 1355
-        y: 816
-        width: 312
-        height: 199
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ebfc438569e551c499ee9bc0fdbd5663
-      internalID: -1535167606
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NUEVA-INTERFAZ 01 (3)_15
-      rect:
-        serializedVersion: 2
-        x: 1711
-        y: 816
-        width: 308
-        height: 199
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3bf1b1c5f4ed0048a36a573e33e7ca7
-      internalID: 537573788
       vertices: []
       indices: 
       edges: []
@@ -461,7 +342,7 @@ TextureImporter:
         height: 120
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 98, y: 36, z: 107, w: 32}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -477,12 +358,12 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 784
-        y: 767
+        y: 766
         width: 426
-        height: 119
+        height: 118
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 115, y: 36, z: 141, w: 24}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -499,38 +380,17 @@ TextureImporter:
         serializedVersion: 2
         x: 1354
         y: 565
-        width: 313
-        height: 209
+        width: 669
+        height: 445
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 222, y: 169, z: 204, w: 129}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: fa6ffc2769f9f8148a1fe2f9497fe092
       internalID: 1597110673
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NUEVA-INTERFAZ 01 (3)_19
-      rect:
-        serializedVersion: 2
-        x: 1711
-        y: 565
-        width: 308
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71cd89f4e483b274b91e063cb0f35412
-      internalID: 351689849
       vertices: []
       indices: 
       edges: []
@@ -566,7 +426,7 @@ TextureImporter:
         height: 152
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 188, y: 53, z: 328, w: 56}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -588,32 +448,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      NUEVA-INTERFAZ 01 (3)_13: -1748319669
-      NUEVA-INTERFAZ 01 (3)_5: 587812486
-      NUEVA-INTERFAZ 01 (3)_18: 1597110673
-      NUEVA-INTERFAZ 01 (3)_16: -81901547
-      NUEVA-INTERFAZ 01 (3)_14: -1535167606
-      NUEVA-INTERFAZ 01 (3)_11: -1308744879
       NUEVA-INTERFAZ 01 (3)_0: -1883662033
-      NUEVA-INTERFAZ 01 (3)_7: -1735837625
-      NUEVA-INTERFAZ 01 (3)_20: -1353677535
-      NUEVA-INTERFAZ 01 (3)_8: -284464583
-      NUEVA-INTERFAZ 01 (3)_21: 597890747
-      NUEVA-INTERFAZ 01 (3)_17: 1066419812
-      NUEVA-INTERFAZ 01 (3)_4: 275836543
       NUEVA-INTERFAZ 01 (3)_1: -1430412714
-      NUEVA-INTERFAZ 01 (3)_19: 351689849
       NUEVA-INTERFAZ 01 (3)_10: -608816367
-      NUEVA-INTERFAZ 01 (3)_9: 727352083
-      NUEVA-INTERFAZ 01 (3)_15: 537573788
+      NUEVA-INTERFAZ 01 (3)_11: -1308744879
       NUEVA-INTERFAZ 01 (3)_12: -1022740657
+      NUEVA-INTERFAZ 01 (3)_13: -1748319669
+      NUEVA-INTERFAZ 01 (3)_14: -1535167606
+      NUEVA-INTERFAZ 01 (3)_15: 537573788
+      NUEVA-INTERFAZ 01 (3)_16: -81901547
+      NUEVA-INTERFAZ 01 (3)_17: 1066419812
+      NUEVA-INTERFAZ 01 (3)_18: 1597110673
+      NUEVA-INTERFAZ 01 (3)_19: 351689849
       NUEVA-INTERFAZ 01 (3)_2: 1193451046
-      NUEVA-INTERFAZ 01 (3)_3: -1939221660
+      NUEVA-INTERFAZ 01 (3)_20: -1353677535
+      NUEVA-INTERFAZ 01 (3)_21: 597890747
       NUEVA-INTERFAZ 01 (3)_22: 2116354937
+      NUEVA-INTERFAZ 01 (3)_3: -1939221660
+      NUEVA-INTERFAZ 01 (3)_4: 275836543
+      NUEVA-INTERFAZ 01 (3)_5: 587812486
       NUEVA-INTERFAZ 01 (3)_6: -240659744
-  spritePackingTag: 
+      NUEVA-INTERFAZ 01 (3)_7: -1735837625
+      NUEVA-INTERFAZ 01 (3)_8: -284464583
+      NUEVA-INTERFAZ 01 (3)_9: 727352083
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

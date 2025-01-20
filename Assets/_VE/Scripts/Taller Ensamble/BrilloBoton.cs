@@ -1,6 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
+
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -9,7 +7,11 @@ public class BrilloBoton : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 {
     public GameObject imagenBrillo; // Asigna la imagen del brillo
     public GameObject imagenIcono, imagenIconoFurtivo;
-    public Sprite icono;
+    public Sprite icono; 
+    public bool esBoton;
+
+    [HideInInspector]
+    public bool botonPresionado;
 
     private void Start()
     {
@@ -31,7 +33,7 @@ public class BrilloBoton : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     {
         if (imagenBrillo != null)
         {
-            imagenBrillo.SetActive(false); // Desactiva el brillo al salir
+            imagenBrillo.SetActive(false); // Desactiva el brillo al salir  
         }
     }
 
