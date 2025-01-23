@@ -9,7 +9,7 @@ public class CanvasPersonalizacion : MonoBehaviour
     public PersonalizarFurtivo  personalizarFurtivo; // Referencia al script de personalizacion del furtivo
     public TextMeshProUGUI      txtAmperios, txtVoltaje, txtKilovatios, txtPeso, txtInformacion; // Textos con la informacion de las baterias
     public TextMeshProUGUI      txtChasis, txtAleron, txtLlanta, txtPesoTotal; // Textos con la informacion del furtivo
-    private int                 pesoCarroceria, pesoAleron, pesoLlantas, pesoBateria, pesoTotal; // Variables para el manejo del peso de los elementos
+    private int                 pesoCarroceria, pesoAleron, pesoLlantas, pesoBateria,pesoSilla, pesoTotal; // Variables para el manejo del peso de los elementos
     private bool                flag; // Bandera
 
     public void ActualizarPanelInformativo()
@@ -84,6 +84,28 @@ public class CanvasPersonalizacion : MonoBehaviour
             DatosCanvasInformativo.voltiosVelocidad = DatosCanvasInformativo.voltiosVelocidad - 3;
         }
 
+        // Validamos que sillas se tienen seleccionadas en la personalizacion y a raiz de esto modificamos el tipo de silla y el peso
+        if (personalizarFurtivo.sillaIndex == 0)
+        {
+            pesoSilla = 0;
+        }
+        else if (personalizarFurtivo.sillaIndex == 1)
+        {
+            pesoSilla = 5;
+        }
+        else if (personalizarFurtivo.sillaIndex <= 3)
+        {
+            pesoSilla = 6;
+        }
+        else if (personalizarFurtivo.sillaIndex <= 5)
+        {
+            pesoSilla = 8;
+        }
+        else if (personalizarFurtivo.sillaIndex <= 8)
+        {
+            pesoSilla = 10;
+        }
+
         // Validamos que llantas se tiene seleccionadas en la personalizacion y a raiz de esto modificamos el tipo de llanta y el peso
         if (personalizarFurtivo.llantaIndex == 0)
         {
@@ -150,7 +172,7 @@ public class CanvasPersonalizacion : MonoBehaviour
             DatosCanvasInformativo.kilovatiosAceleracion = 6; // Guardamos el dato de los kilovatios para aumentarle la aceleracion a nuestro furtivo
         }
 
-        pesoTotal = pesoCarroceria + pesoAleron + pesoLlantas + pesoBateria; // Sumamos el peso total de cada parte 
+        pesoTotal = pesoCarroceria + pesoAleron + pesoLlantas + pesoBateria + pesoSilla; // Sumamos el peso total de cada parte 
         txtPesoTotal.text = pesoTotal.ToString() + " Kg"; // lo mostramos en el canvas
         DatosCanvasInformativo.pesoFurtivo = pesoTotal; // Guardamos el peso para poder utilizarlo en el script de conducir y aumentarle el peso a nuestro furtivo
     }

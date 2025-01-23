@@ -9818,6 +9818,10 @@ MonoBehaviour:
   rotarEnZ: 0
   rotarEnY: 1
   rotarEnX: 0
+  rotarIzq: 0
+  rotarDere: 0
+  rotarArriba: 0
+  rotarAbajo: 0
 --- !u!4 &447582290 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c7961a4526a182d488028406e9b20217, type: 3}
@@ -11175,7 +11179,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 1849225033, guid: 8faf3e0ffd2502c4199c8edf89ba489d, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -30963,6 +30967,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 939b22e0d50418b4086a721f02c73d5e, type: 2}
   carroceriaIndex: 0
   aleronIndex: 0
+  sillaIndex: 0
   llantaIndex: 0
   bateriaIndex: 0
   indiceGlobal: 000000000000000000000000000000000000000000000000
@@ -32072,7 +32077,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: -286988830, guid: 8faf3e0ffd2502c4199c8edf89ba489d, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -32318,7 +32323,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: -754203702, guid: 8faf3e0ffd2502c4199c8edf89ba489d, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -37359,6 +37364,10 @@ MonoBehaviour:
   rotarEnZ: 0
   rotarEnY: 1
   rotarEnX: 0
+  rotarIzq: 0
+  rotarDere: 0
+  rotarArriba: 0
+  rotarAbajo: 0
 --- !u!1 &1453869071
 GameObject:
   m_ObjectHideFlags: 0
@@ -38526,7 +38535,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: -156401677, guid: 8faf3e0ffd2502c4199c8edf89ba489d, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -44948,7 +44957,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: -754203702, guid: 8faf3e0ffd2502c4199c8edf89ba489d, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1

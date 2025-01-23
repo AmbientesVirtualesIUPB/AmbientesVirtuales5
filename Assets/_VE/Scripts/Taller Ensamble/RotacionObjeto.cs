@@ -6,6 +6,7 @@ public class RotacionObjeto : MonoBehaviour
     // Velocidad de rotación en grados por segundo
     public float velocidadRotacion = 50f;
     public bool rotarEnZ, rotarEnY, rotarEnX;
+    public bool rotarIzq, rotarDere, rotarArriba, rotarAbajo;
 
     void Update()
     {

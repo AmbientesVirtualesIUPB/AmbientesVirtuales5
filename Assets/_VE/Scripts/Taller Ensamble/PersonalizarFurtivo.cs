@@ -50,7 +50,8 @@ public class PersonalizarFurtivo : MonoBehaviour
     public int          carroceriaIndex = 0;
     [HideInInspector]
     public int          aleronIndex = 0;
-    private int         sillaIndex = 0;
+    [HideInInspector]
+    public int         sillaIndex = 0;
     private int         volanteIndex = 0;
     [HideInInspector]
     public int          llantaIndex = 0;
