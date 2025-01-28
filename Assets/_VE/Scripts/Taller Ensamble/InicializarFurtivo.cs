@@ -51,9 +51,12 @@ public class InicializarFurtivo : MonoBehaviour
     /// </summary>
     private void Start()
     {
-        // Guardamos la posicion que tenemos antes de iniciar la personalizacion
-        posicionInicial = camPrincipal.transform.position;
-        rotacionInicial = camPrincipal.transform.rotation;
+        if (camPrincipal != null)
+        {
+            // Guardamos la posicion que tenemos antes de iniciar la personalizacion
+            posicionInicial = camPrincipal.transform.position;
+            rotacionInicial = camPrincipal.transform.rotation;
+        }    
 
         IniciarPlataform();
     }
@@ -67,18 +70,25 @@ public class InicializarFurtivo : MonoBehaviour
         // Controlamos el flujo de tiempo para las transiciones
         tiempoTranscurrido += Time.deltaTime;
 
-        // Validamos si ya podemos hacer cambios de camaras
-        if (iniciarCamaras)
+        if (camPrincipal != null)
         {
-            // Si el enfoque actual es diferente a nuestra camara ejecutamos
-            if (camPrincipal.position != posicion)
+            // Validamos si ya podemos hacer cambios de camaras
+            if (iniciarCamaras)
             {
-                // Asignamos un tiempo, velocidad y guardamos posicion y rotacion de la nueva posicion
-                lerpTime += Time.deltaTime / lerpDuration;
-                camPrincipal.position = Vector3.Lerp(camPrincipal.position, posicion, lerpTime);
-                camPrincipal.rotation = Quaternion.Lerp(camPrincipal.rotation, rotacion, lerpTime);
+                // Si el enfoque actual es diferente a nuestra camara ejecutamos
+                if (camPrincipal.position != posicion)
+                {
+                    if (camPrincipal != null)
+                    {
+                        // Asignamos un tiempo, velocidad y guardamos posicion y rotacion de la nueva posicion
+                        lerpTime += Time.deltaTime / lerpDuration;
+                        camPrincipal.position = Vector3.Lerp(camPrincipal.position, posicion, lerpTime);
+                        camPrincipal.rotation = Quaternion.Lerp(camPrincipal.rotation, rotacion, lerpTime);
+                    }
+                }
             }
-        } 
+        }
+        
     }
 
     /// <summary>
