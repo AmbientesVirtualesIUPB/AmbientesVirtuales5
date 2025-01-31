@@ -10,7 +10,6 @@ public class MontarFurtivo : MonoBehaviour
     public IniciarIntefazVehiculo       iniciarInterfaz;
     public Tacometro                    tacometro;
     public Carrera                      carrera;
-    public CamTerceraPersona            camTerceraPersona;
     public CargarBateriaPits            cargarBateriaPits;
     public MiniMapaIcono                miniMapaIcono;
     public MonoBehaviour[]              scriptsActivar;
@@ -21,6 +20,8 @@ public class MontarFurtivo : MonoBehaviour
     public Button                       button;
     public ConduccionMultiplataforma    conduccionMultiplataforma;
     public PistaServidor                pistaServidor;
+    public Transform                    posicionConductor;
+    
 
     private void Start()
     {
@@ -36,7 +37,7 @@ public class MontarFurtivo : MonoBehaviour
         pistaServidor.LlamadoASubirmeFurtivo(morionID.GetID());
 
         conduccionMultiplataforma.enabled = true;
-        ControlUsuarios.singleton.usuarioLocal.gameObject.SetActive(false);
+        //ControlUsuarios.singleton.usuarioLocal.gameObject.SetActive(false);
         DatosCanvasInformativo.RecibirDatosParaFurtivo(id);
 
         conducir.enabled = true;
@@ -70,10 +71,15 @@ public class MontarFurtivo : MonoBehaviour
         cargarBateriaPits.InicializarComponentesBateria(this.gameObject);
         tacometro.InicializarComponentesTacometro(this.gameObject);
 
-        camTerceraPersona.vehiculo = this.transform;
         miniMapaIcono.cambioColor = true;
         miniMapaIcono.flag = true;
         AsignarBotonMetodo(this.gameObject);
+
+        PosicionarPersonajeXR.singleton.transform.parent = posicionConductor.transform;
+        PosicionarPersonajeXR.singleton.transform.localPosition = Vector3.zero;
+        PosicionarPersonajeXR.singleton.transform.localEulerAngles = Vector3.zero;
+        PosicionarPersonajeXR.singleton.characterController.enabled = false;
+
     }
 
     /// <summary>

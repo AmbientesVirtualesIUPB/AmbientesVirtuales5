@@ -63,6 +63,7 @@ public class Carrera : MonoBehaviour
     {
         iniciarIntefazVehiculo.Iniciar();
         StartCoroutine(IniciarCarrera());
+        print("iniciada");
     }
 
     /// <summary>

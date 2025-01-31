@@ -21751,6 +21751,7 @@ GameObject:
   - component: {fileID: 1313932170}
   - component: {fileID: 1313932169}
   - component: {fileID: 1313932168}
+  - component: {fileID: 1313932172}
   m_Layer: 5
   m_Name: CanvasBateria
   m_TagString: Untagged
@@ -21843,6 +21844,25 @@ RectTransform:
   m_AnchoredPosition: {x: 7.348813, y: 1.76424}
   m_SizeDelta: {x: 946.5095, y: 641.0005}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1313932172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313932167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &1317193859
 GameObject:
   m_ObjectHideFlags: 0
@@ -39479,6 +39499,7 @@ GameObject:
   - component: {fileID: 2076645538}
   - component: {fileID: 2076645537}
   - component: {fileID: 2076645541}
+  - component: {fileID: 2076645542}
   m_Layer: 5
   m_Name: CanvasInformativo
   m_TagString: Untagged
@@ -39591,6 +39612,25 @@ MonoBehaviour:
   newNormalColor: {r: 0, g: 0, b: 0, a: 1}
   txtInformacion: {fileID: 1234471030}
   txtTitulo: {fileID: 1242526889}
+--- !u!114 &2076645542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076645536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!114 &2090671433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45977,6 +46017,7 @@ GameObject:
   - component: {fileID: 4390802499114054751}
   - component: {fileID: 1994653164568464060}
   - component: {fileID: 2090671433}
+  - component: {fileID: 8975874680312078937}
   m_Layer: 5
   m_Name: CanvasPersonalizacion
   m_TagString: Untagged
@@ -53063,6 +53104,25 @@ RectTransform:
   m_AnchoredPosition: {x: 8.331, y: 1.47}
   m_SizeDelta: {x: 1920, y: 663.97003}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8975874680312078937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4291392372868714919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!222 &9006167832093404735
 CanvasRenderer:
   m_ObjectHideFlags: 0

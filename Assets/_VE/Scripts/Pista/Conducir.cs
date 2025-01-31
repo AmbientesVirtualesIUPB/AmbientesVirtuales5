@@ -105,7 +105,7 @@ public class Conducir : MonoBehaviour
     IMPORTANT: No darles valores a estas variables
     */
     Rigidbody               carRigidbody; // Stores the car's rigidbody.
-    float                   steeringAxis; // Se utiliza para saber si el volante ha alcanzado el valor máximo. Va de -1 a 1.
+    public float                   steeringAxis; // Se utiliza para saber si el volante ha alcanzado el valor máximo. Va de -1 a 1.
     float                   throttleAxis; // Se utiliza para saber si el acelerador ha alcanzado el valor máximo. Va de -1 a 1.
     float                   driftingAxis;
     float                   localVelocityZ;
@@ -474,22 +474,31 @@ public class Conducir : MonoBehaviour
         frontRightCollider.steerAngle = Mathf.Lerp(frontRightCollider.steerAngle, steeringAngle, steeringSpeed);
     }
 
+    public void Turn(float asv)
+    {
+        steeringAxis = asv;
+        steeringAxis = Mathf.Clamp(steeringAxis, -1, 1);
+        var steeringAngle = steeringAxis * maxSteeringAngle;
+        frontLeftCollider.steerAngle = Mathf.Lerp(frontLeftCollider.steerAngle, steeringAngle, steeringSpeed);
+        frontRightCollider.steerAngle = Mathf.Lerp(frontRightCollider.steerAngle, steeringAngle, steeringSpeed);
+    }
+
     // El siguiente método lleva las ruedas delanteras del automóvil a su posición predeterminada (rotación = 0). 
     // La velocidad de este movimiento dependerá de la variable steeringSpeed.
     public void ResetSteeringAngle()
     {
-        if (steeringAxis < 0f)
-        {
-            steeringAxis = steeringAxis + (Time.deltaTime * 10f * steeringSpeed);
-        }
-        else if (steeringAxis > 0f)
-        {
-            steeringAxis = steeringAxis - (Time.deltaTime * 10f * steeringSpeed);
-        }
-        if (Mathf.Abs(frontLeftCollider.steerAngle) < 1f)
-        {
-            steeringAxis = 0f;
-        }
+        //if (steeringAxis < 0f)
+        //{
+        //    steeringAxis = steeringAxis + (Time.deltaTime * 10f * steeringSpeed);
+        //}
+        //else if (steeringAxis > 0f)
+        //{
+        //    steeringAxis = steeringAxis - (Time.deltaTime * 10f * steeringSpeed);
+        //}
+        //if (Mathf.Abs(frontLeftCollider.steerAngle) < 1f)
+        //{
+        //    steeringAxis = 0f;
+        //}
         var steeringAngle = steeringAxis * maxSteeringAngle;
         frontLeftCollider.steerAngle = Mathf.Lerp(frontLeftCollider.steerAngle, steeringAngle, steeringSpeed);
         frontRightCollider.steerAngle = Mathf.Lerp(frontRightCollider.steerAngle, steeringAngle, steeringSpeed);
