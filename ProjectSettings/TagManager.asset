@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Checkpoint
+  - LineaMeta
+  - obstaculo
+  - coche
   layers:
   - Default
   - TransparentFX
@@ -20,7 +24,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Minimap
   - 
   - 
   - 
