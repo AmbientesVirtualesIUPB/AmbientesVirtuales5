@@ -135,6 +135,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 204031254158749155, guid: 326da3282a3517e419f467f02c2e083d, type: 3}
+      propertyPath: puerto
+      value: 8082
+      objectReference: {fileID: 0}
+    - target: {fileID: 204031254158749155, guid: 326da3282a3517e419f467f02c2e083d, type: 3}
       propertyPath: usarMumble
       value: 1
       objectReference: {fileID: 0}

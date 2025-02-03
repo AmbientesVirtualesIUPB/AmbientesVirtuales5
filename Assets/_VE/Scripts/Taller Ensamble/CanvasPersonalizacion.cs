@@ -122,7 +122,7 @@ public class CanvasPersonalizacion : MonoBehaviour
             pesoBateria = 5;
 
             DatosCanvasInformativo.amperiosCarga = 500; // Guardamos el dato del amperio para aumentarle la carga a nuestro furtivo //430
-            DatosCanvasInformativo.voltiosVelocidad = DatosCanvasInformativo.voltiosVelocidad + 12; // Guardamos el dato del voltaje para aumentarle la velocidad a nuestro furtivo
+            DatosCanvasInformativo.voltiosVelocidad = DatosCanvasInformativo.voltiosVelocidad + 62; // Guardamos el dato del voltaje para aumentarle la velocidad a nuestro furtivo
             DatosCanvasInformativo.kilovatiosAceleracion = 2; // Guardamos el dato de los kilovatios para aumentarle la aceleracion a nuestro furtivo
         }
         else if (personalizarFurtivo.bateriaIndex - 1 == 1)
@@ -134,7 +134,7 @@ public class CanvasPersonalizacion : MonoBehaviour
             pesoBateria = 8;
 
             DatosCanvasInformativo.amperiosCarga = 310; // Guardamos el dato del amperio para aumentarle la carga a nuestro furtivo
-            DatosCanvasInformativo.voltiosVelocidad = DatosCanvasInformativo.voltiosVelocidad + 22; // Guardamos el dato del voltaje para aumentarle la velocidad a nuestro furtivo
+            DatosCanvasInformativo.voltiosVelocidad = DatosCanvasInformativo.voltiosVelocidad + 62; // Guardamos el dato del voltaje para aumentarle la velocidad a nuestro furtivo
             DatosCanvasInformativo.kilovatiosAceleracion = 4; // Guardamos el dato de los kilovatios para aumentarle la aceleracion a nuestro furtivo
         }
         else if (personalizarFurtivo.bateriaIndex - 1 == 2)
@@ -146,7 +146,7 @@ public class CanvasPersonalizacion : MonoBehaviour
             pesoBateria = 10;
 
             DatosCanvasInformativo.amperiosCarga = 125; // Guardamos el dato del amperio para aumentarle la carga a nuestro furtivo //84
-            DatosCanvasInformativo.voltiosVelocidad = DatosCanvasInformativo.voltiosVelocidad + 32; // Guardamos el dato del voltaje para aumentarle la velocidad a nuestro furtivo
+            DatosCanvasInformativo.voltiosVelocidad = DatosCanvasInformativo.voltiosVelocidad + 62; // Guardamos el dato del voltaje para aumentarle la velocidad a nuestro furtivo
             DatosCanvasInformativo.kilovatiosAceleracion = 6; // Guardamos el dato de los kilovatios para aumentarle la aceleracion a nuestro furtivo
         }
 
