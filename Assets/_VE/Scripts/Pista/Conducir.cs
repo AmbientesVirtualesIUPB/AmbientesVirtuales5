@@ -4,6 +4,25 @@ using UnityEngine.UI;
 
 public class Conducir : MonoBehaviour
 {
+
+  //  public MovimientoSexi movimientoJugador; // Referencia al script MovimientoSexi
+
+   
+    public void PresionarAcelerador() => throttlePTI = true;
+    public void SoltarAcelerador() => throttlePTI = false;
+
+    public void PresionarReversa() => reversePTI = true;
+    public void SoltarReversa() => reversePTI = false;
+
+    public void GirarIzquierda() => turnLeftPTI = true;
+    public void SoltarGiroIzquierda() => turnLeftPTI = false;
+
+    public void GirarDerecha() => turnRightPTI = true;
+    public void SoltarGiroDerecha() => turnRightPTI = false;
+
+    public void FrenoMano() => handbrakePTI = true;
+    public void SoltarFrenoMano() => handbrakePTI = false;
+
     //CAR SETUP
     [Header("CONFIGURACION COCHE")]
     [Space(10)]
@@ -129,6 +148,11 @@ public class Conducir : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        /*if (movimientoJugador == null)
+        {
+            Debug.LogError("MovimientoSexi no asignado en Conducir. Arrástralo en el Inspector.");
+        }*/
+
         carRigidbody = GetComponent<Rigidbody>(); // Inicializamos el componenete rigibody para acceder a su masa
         carRigidbody.mass = 1400 + DatosCanvasInformativo.pesoFurtivo; // Asignamos a la masa el valor adicional dependiendo del peso total del furtivo
         maxSpeed = maxSpeed + DatosCanvasInformativo.voltiosVelocidad; // Asignamos a la velocidad el valor adicional dependiendo de la bateria elegida
@@ -860,4 +884,20 @@ public class Conducir : MonoBehaviour
             driftingAxis = 0f;
         }
     }
+
+   /* public void MontarVehiculo()
+    {
+        if (MovimientoSexi.Instance != null)
+        {
+            MovimientoSexi.Instance.ActivarJoystick(false);
+        }
+    }*/
+
+    /*public void BajarVehiculo()
+    {
+        if (MovimientoSexi.Instance != null)
+        {
+            MovimientoSexi.Instance.ActivarJoystick(true);
+        }
+    }*/
 }

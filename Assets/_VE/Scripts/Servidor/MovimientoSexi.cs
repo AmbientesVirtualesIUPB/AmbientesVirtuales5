@@ -34,11 +34,18 @@ public class MovimientoSexi : MonoBehaviour
 
     public Joystick joystick; // Referencia al joystick de la UI
 
+    //public static MovimientoSexi Instance { get; private set; }
+
     // Start is called before the first frame update
     IEnumerator Start()
     {
         yield return new WaitForSeconds(1);
         if (!GetComponent<MorionID>().isOwner) enabled = false;
+
+        /*if (joystick == null)
+        {
+            Debug.LogError("Joystick no asignado en MovimientoSexi. Arrástralo en el Inspector.");
+        }*/
 
     }
 
@@ -56,5 +63,32 @@ public class MovimientoSexi : MonoBehaviour
         transform.Rotate(Vector3.up * horizontal * velRotacion * Time.deltaTime);
 
     }
+    /*void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject); // Hace que el objeto persista entre escenas
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }*/
+
+    /*public void ActivarJoystick(bool estado)
+    {
+        if (joystick != null)
+        {
+            joystick.gameObject.SetActive(estado);
+            Debug.Log("Joystick " + (estado ? "Activado" : "Desactivado"));
+        }
+        else
+        {
+            Debug.LogError("No se encontró el Joystick.");
+        }
+    }*/
+   
+
 
 }

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ConfiguracionGeneral
   m_EditorClassIdentifier: 
   tipoGraficos: 0
-  plataformaObjetivo: 2
+  plataformaObjetivo: 1
   url: http://10.0.100.9/apiwebm/
   ip: 10.0.100.9
   urlAPIArtcraft: http://localhost/artcraft/api/

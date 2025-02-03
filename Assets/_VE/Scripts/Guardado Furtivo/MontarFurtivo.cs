@@ -5,6 +5,8 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Conducir))]
 public class MontarFurtivo : MonoBehaviour
 {
+    
+
     public int                          id;
     public Conducir                     conducir;
     public IniciarIntefazVehiculo       iniciarInterfaz;
@@ -21,6 +23,8 @@ public class MontarFurtivo : MonoBehaviour
     public Button                       button;
     public ConduccionMultiplataforma    conduccionMultiplataforma;
     public PistaServidor                pistaServidor;
+
+
 
     private void Start()
     {
@@ -60,6 +64,10 @@ public class MontarFurtivo : MonoBehaviour
         for (int i = 0; i < objetosMixDesactivar.Length; i++)
         {
             objetosMixDesactivar[i].gameObject.SetActive(false);
+        }
+        if (SingleJoistink.singlenton != null && SingleJoistink.singlenton.joystick != null)
+        {
+            SingleJoistink.singlenton.joystick.SetActive(false);
         }
 
         morionID.isOwner = true;
