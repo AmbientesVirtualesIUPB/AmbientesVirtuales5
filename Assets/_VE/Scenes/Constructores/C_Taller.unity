@@ -142,7 +142,11 @@ PrefabInstance:
     - target: {fileID: 204031254158749153, guid: 326da3282a3517e419f467f02c2e083d, type: 3}
       propertyPath: usuarioLocal
       value: 
-      objectReference: {fileID: 427336445}
+      objectReference: {fileID: 0}
+    - target: {fileID: 204031254158749155, guid: 326da3282a3517e419f467f02c2e083d, type: 3}
+      propertyPath: puerto
+      value: 8082
+      objectReference: {fileID: 0}
     - target: {fileID: 204031254158749155, guid: 326da3282a3517e419f467f02c2e083d, type: 3}
       propertyPath: usarMumble
       value: 1
@@ -452,7 +456,10 @@ PrefabInstance:
     - {fileID: 6817276401301695377, guid: 469e46b2ef176034889461de993f24af, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9025534110481784363, guid: 469e46b2ef176034889461de993f24af, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1743146907}
   m_SourcePrefab: {fileID: 100100000, guid: 469e46b2ef176034889461de993f24af, type: 3}
 --- !u!1 &1947430364 stripped
 GameObject:
@@ -942,8 +949,8 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 6591681981176993200, guid: cc4217c604bce964c9f6594183d740da, type: 3}
-      propertyPath: HostName
-      value: 127.0
+      propertyPath: Port
+      value: 8090
       objectReference: {fileID: 0}
     - target: {fileID: 6591681981176993200, guid: cc4217c604bce964c9f6594183d740da, type: 3}
       propertyPath: permitirConexion

@@ -18,7 +18,7 @@ public class ControlUsuarios : MonoBehaviour
 	void Start()
 	{
 		GestionMensajesServidor.singeton.RegistrarAccion("AC00", AC00);
-		GestionMensajesServidor.singeton.RegistrarAccion("PR00", PR00);
+		GestionMensajesServidor.singeton.RegistrarAccion("PR00", PR00);		
 	}
 
 	/// <summary>
@@ -30,7 +30,8 @@ public class ControlUsuarios : MonoBehaviour
 		// Enviar presentación del usuario
 		if (usuarioLocal != null)
 		{
-			GestionMensajesServidor.singeton.EnviarMensaje("PR00", usuarioLocal.GetPresentacion());
+            Debug.LogWarning("Presentacion exitosa");
+            GestionMensajesServidor.singeton.EnviarMensaje("PR00", usuarioLocal.GetPresentacion());
 		}
 	}
 

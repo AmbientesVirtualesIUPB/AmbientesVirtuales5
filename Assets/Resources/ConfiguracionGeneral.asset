@@ -15,7 +15,7 @@ MonoBehaviour:
   tipoGraficos: 0
   plataformaObjetivo: 4
   url: http://10.0.100.9/apiwebm/
-  ip: 190.248.128.142
+  ip: 10.0.100.9
   urlAPIArtcraft: http://localhost/artcraft/api/
   notas: '10.0.100.9
 

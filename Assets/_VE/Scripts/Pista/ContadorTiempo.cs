@@ -3,10 +3,15 @@ using UnityEngine;
 
 public class ContadorTiempo : MonoBehaviour
 {
-    public TextMeshProUGUI  txtTiempo, tiempoFinal; // Elemento de texto desde el canvas
+    public TextMeshProUGUI  txtTiempo, txtFinal; // Elemento de texto desde el canvas
     private float           tiempoTranscurrido = 0f; // Para indicar el tiempo que ha pasado
     public bool             contador = false; // para controlar cuándo empieza a contar
 
+    public void InicializarComponentesTiempo(TextMeshProUGUI tiempo, TextMeshProUGUI tiempoFinal)
+    {
+        txtTiempo = tiempo;
+        txtFinal = tiempoFinal;
+    }
 
     private void Update()
     {
@@ -65,6 +70,6 @@ public class ContadorTiempo : MonoBehaviour
     /// </summary>
     public void TerminarContador()
     {
-        tiempoFinal.text = txtTiempo.text;
+        txtFinal.text = txtTiempo.text;
     }
 }

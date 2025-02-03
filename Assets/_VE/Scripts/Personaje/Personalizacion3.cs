@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.VirtualTexturing;
 
 public class Personalizacion3 : MonoBehaviour
 {
@@ -102,80 +103,87 @@ public class Personalizacion3 : MonoBehaviour
 
     public void Pintar()
     {
-        int indice;
-        void Desactivador(ObjetoPersonalizable[] lista)
+        try
         {
-            for (int i = 0; i < lista.Length; i++)
+            int indice;
+            void Desactivador(ObjetoPersonalizable[] lista)
             {
-                lista[i].renderer.gameObject.SetActive(false);
+                for (int i = 0; i < lista.Length; i++)
+                {
+                    lista[i].renderer.gameObject.SetActive(false);
+                }
             }
+            Desactivador(cuerposHombre);
+            Desactivador(cuerposMujer);
+            Desactivador(cabezasHombre);
+            Desactivador(cabezasMujer);
+            Desactivador(cabellosHombre);
+            Desactivador(cabellosMujer);
+            Desactivador(cejasMujer);
+            Desactivador(cejasHombre);
+            Desactivador(zapatos);
+            Desactivador(sombreros);
+            Desactivador(accesorios);
+
+
+
+            switch (personalizacion.genero)
+            {
+                case Genero.masculino:
+                    indice = personalizacion.cuerpo;
+                    matTPR.SetTexture("_Base", cuerposHombre[indice].txBase);
+                    matTPR.SetTexture("_Rugosidad", cuerposHombre[indice].txRugosidad);
+                    matTPR.SetTexture("_Mascaras", cuerposHombre[indice].txRGB);
+
+                    cuerposHombre[personalizacion.cuerpo].renderer.gameObject.SetActive(true);
+
+                    indice = personalizacion.cabeza;
+                    matSKN.SetTexture("_Base", cabezasHombre[indice].txBase);
+                    matSKN.SetTexture("_Rugosidad", cabezasHombre[indice].txRugosidad);
+
+                    cabezasHombre[Mathf.Clamp(personalizacion.cabeza, 0, cabezasHombre.Length - 1)].renderer.gameObject.SetActive(true);
+
+                    cabellosHombre[Mathf.Clamp(personalizacion.cabello, 0, cabellosHombre.Length - 1)].renderer.gameObject.SetActive(true);
+                    cejasHombre[Mathf.Clamp(personalizacion.cejas, 0, cejasHombre.Length - 1)].renderer.gameObject.SetActive(true);
+                    break;
+                case Genero.femenino:
+                    indice = personalizacion.cuerpo;
+                    matTPR.SetTexture("_Base", cuerposMujer[indice].txBase);
+                    matTPR.SetTexture("_Rugosidad", cuerposMujer[indice].txRugosidad);
+                    matTPR.SetTexture("_Mascaras", cuerposMujer[indice].txRGB);
+
+                    cuerposMujer[personalizacion.cuerpo].renderer.gameObject.SetActive(true);
+
+                    indice = personalizacion.cabeza;
+                    matSKN.SetTexture("_Base", cabezasMujer[indice].txBase);
+                    matSKN.SetTexture("_Rugosidad", cabezasMujer[indice].txRugosidad);
+
+                    cabezasMujer[Mathf.Clamp(personalizacion.cabeza, 0, cabezasMujer.Length - 1)].renderer.gameObject.SetActive(true);
+
+                    cabellosMujer[Mathf.Clamp(personalizacion.cabello, 0, cabellosMujer.Length - 1)].renderer.gameObject.SetActive(true);
+                    cejasMujer[Mathf.Clamp(personalizacion.cejas, 0, cejasMujer.Length - 1)].renderer.gameObject.SetActive(true);
+                    break;
+                case Genero.neutro:
+                    break;
+                default:
+                    break;
+            }
+
+            zapatos[Mathf.Clamp(personalizacion.zapatos, 0, zapatos.Length - 1)].renderer.gameObject.SetActive(true);
+            sombreros[Mathf.Clamp(personalizacion.sombrero, 0, sombreros.Length - 1)].renderer.gameObject.SetActive(true);
+            accesorios[Mathf.Clamp(personalizacion.accesorios, 0, accesorios.Length - 1)].renderer.gameObject.SetActive(true);
+
+            matTPR.SetColor("_Color1", colores1[personalizacion.color1]);
+            matTPR.SetColor("_Color2", colores1[personalizacion.color2]);
+
+            matSKN.SetColor("_Color1", coloresPiel[personalizacion.colorPiel]);
+
+            matFRR.SetColor("_Color1", coloresCabello[personalizacion.colorCabello]);
         }
-        Desactivador(cuerposHombre);
-        Desactivador(cuerposMujer);
-        Desactivador(cabezasHombre);
-        Desactivador(cabezasMujer);
-        Desactivador(cabellosHombre);
-        Desactivador(cabellosMujer);
-        Desactivador(cejasMujer);
-        Desactivador(cejasHombre);
-        Desactivador(zapatos);
-        Desactivador(sombreros);
-        Desactivador(accesorios);
-
-
-
-        switch (personalizacion.genero)
-		{
-			case Genero.masculino:
-                indice = personalizacion.cuerpo;
-                matTPR.SetTexture("_Base", cuerposHombre[indice].txBase);
-                matTPR.SetTexture("_Rugosidad", cuerposHombre[indice].txRugosidad);
-                matTPR.SetTexture("_Mascaras", cuerposHombre[indice].txRGB);
-
-                cuerposHombre[personalizacion.cuerpo].renderer.gameObject.SetActive(true);
-
-                indice = personalizacion.cabeza;
-                matSKN.SetTexture("_Base", cabezasHombre[indice].txBase);
-                matSKN.SetTexture("_Rugosidad", cabezasHombre[indice].txRugosidad);
-
-                cabezasHombre[Mathf.Clamp(personalizacion.cabeza, 0, cabezasHombre.Length - 1)].renderer.gameObject.SetActive(true);
-
-                cabellosHombre[Mathf.Clamp(personalizacion.cabello, 0, cabellosHombre.Length - 1)].renderer.gameObject.SetActive(true);
-                cejasHombre[Mathf.Clamp(personalizacion.cejas, 0, cejasHombre.Length - 1)].renderer.gameObject.SetActive(true);
-                break;
-			case Genero.femenino:
-                indice = personalizacion.cuerpo;
-                matTPR.SetTexture("_Base", cuerposMujer[indice].txBase);
-                matTPR.SetTexture("_Rugosidad", cuerposMujer[indice].txRugosidad);
-                matTPR.SetTexture("_Mascaras", cuerposMujer[indice].txRGB);
-
-                cuerposMujer[personalizacion.cuerpo].renderer.gameObject.SetActive(true);
-
-                indice = personalizacion.cabeza;
-                matSKN.SetTexture("_Base", cabezasMujer[indice].txBase);
-                matSKN.SetTexture("_Rugosidad", cabezasMujer[indice].txRugosidad);
-
-                cabezasMujer[Mathf.Clamp(personalizacion.cabeza, 0, cabezasMujer.Length-1)].renderer.gameObject.SetActive(true);
-
-                cabellosMujer[Mathf.Clamp(personalizacion.cabello, 0, cabellosMujer.Length - 1)].renderer.gameObject.SetActive(true);
-                cejasMujer[Mathf.Clamp(personalizacion.cejas, 0, cejasMujer.Length - 1)].renderer.gameObject.SetActive(true);
-                break;
-			case Genero.neutro:
-				break;
-			default:
-				break;
-		}
-
-        zapatos[Mathf.Clamp(personalizacion.zapatos, 0, zapatos.Length - 1)].renderer.gameObject.SetActive(true);
-        sombreros[Mathf.Clamp(personalizacion.sombrero, 0, sombreros.Length - 1)].renderer.gameObject.SetActive(true);
-        accesorios[Mathf.Clamp(personalizacion.accesorios, 0, accesorios.Length - 1)].renderer.gameObject.SetActive(true);
-
-        matTPR.SetColor("_Color1", colores1[personalizacion.color1]);
-        matTPR.SetColor("_Color2", colores1[personalizacion.color2]);
-
-        matSKN.SetColor("_Color1", coloresPiel[personalizacion.colorPiel]);
-
-        matFRR.SetColor("_Color1", coloresCabello[personalizacion.colorCabello]);
+        catch (System.Exception)
+        {
+            Debug.LogError("Error --> ");
+        }
 
     }
 

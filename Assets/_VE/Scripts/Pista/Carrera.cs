@@ -35,6 +35,10 @@ public class Carrera : MonoBehaviour
         bateria = obj.GetComponent<Bateria>();
         conducir = obj.GetComponent<Conducir>();
     }
+    public void InicializarComponentesCarreraInterfaz(IniciarIntefazVehiculo obj)
+    {
+        iniciarIntefazVehiculo = obj.GetComponent<IniciarIntefazVehiculo>();
+    }
 
     void Update()
     {

@@ -1,4 +1,5 @@
 
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 [RequireComponent(typeof(ConduccionMultiplataforma))]
@@ -21,7 +22,9 @@ public class MontarFurtivo : MonoBehaviour
     public ConduccionMultiplataforma    conduccionMultiplataforma;
     public PistaServidor                pistaServidor;
     public Transform                    posicionConductor;
-    
+    public ContadorTiempo               contadorTiempo;
+    public TextMeshProUGUI              txtTiempo, tiempoFinal;
+
 
     private void Start()
     {
@@ -68,6 +71,8 @@ public class MontarFurtivo : MonoBehaviour
 
         iniciarInterfaz.InicializarComponentesInterfaz(this.gameObject);
         carrera.InicializarComponentesCarrera(this.gameObject);
+        carrera.InicializarComponentesCarreraInterfaz(iniciarInterfaz);
+        contadorTiempo.InicializarComponentesTiempo(txtTiempo, tiempoFinal);
         cargarBateriaPits.InicializarComponentesBateria(this.gameObject);
         tacometro.InicializarComponentesTacometro(this.gameObject);
 

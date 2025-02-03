@@ -70,10 +70,13 @@ public class IniciarIntefazVehiculo : MonoBehaviour
     [ContextMenu("Iniciar")]
     public void Iniciar()
     {
-        // Iniciar la corrutina para hacer el fade in
-        StartCoroutine(EncenderInterfaz());
-        StartCoroutine(CargarBateria());
-        estaEncendida = true;
+        if (this.gameObject.activeSelf)
+        {
+            // Iniciar la corrutina para hacer el fade in
+            StartCoroutine(EncenderInterfaz());
+            StartCoroutine(CargarBateria());
+            estaEncendida = true;
+        }        
     }
 
     /// <summary>
