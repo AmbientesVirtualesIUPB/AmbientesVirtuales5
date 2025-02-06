@@ -14,30 +14,26 @@ public class LapsManager : MonoBehaviour
     public bool debugEnConsola; // Para validar si queremos imprimir en consola
 
     private void Start()
-    {   
+    {
         if (carrera == null || contadorTiempo == null) // Si alguno de los componentes es nulo
         {
             if (debugEnConsola) print("Falta asignar componentes en el script");
-        }  
+        }
     }
 
-    void OnTriggerEnter(Collider other)
+    public void PuntoControlAlcanzado(string nombre)
     {
-        // Verifica si el collider es un Checkpoint
-        if (other.CompareTag("Checkpoint"))
+        // Creamos una variable y le asignamos el numero de checkpoint, este numero lo extraemos del nombre del objeto, utilizando replace, para quitar el nombre checkpoint y solo dejar el numero convertido a entero
+        int checkpointNumero = int.Parse(nombre.Replace("Checkpoint", ""));
+
+        // Solo avanza si se pasa al siguiente checkpoint en secuencia, esto para evitar que retroceda y haga trampa
+        if (checkpointNumero == actualCheckpoint + 1)
         {
-            // Creamos una variable y le asignamos el numero de checkpoint, este numero lo extraemos del nombre del objeto, utilizando replace, para quitar el nombre checkpoint y solo dejar el numero convertido a entero
-            int checkpointNumero = int.Parse(other.name.Replace("Checkpoint", ""));
-            
-            // Solo avanza si se pasa al siguiente checkpoint en secuencia, esto para evitar que retroceda y haga trampa
-            if (checkpointNumero == actualCheckpoint + 1)
-            {
-                actualCheckpoint = checkpointNumero; // Actualizamos el checkpoint actual
-            }
+            actualCheckpoint = checkpointNumero; // Actualizamos el checkpoint actual
         }
 
         // Verifica si el collider es un LineaMeta y si ya pasó por todos los checkpoint, de ser así, se da como finalizada la vuelta
-        else if (other.CompareTag("LineaMeta") && actualCheckpoint == totalCheckpoints)
+        else if (actualCheckpoint == totalCheckpoints)
         {
             contadorTiempo.DetenerContador(); // Detenemos el contador de tiempo
             vueltasCompletadas++; // Aumentamos las vueltas

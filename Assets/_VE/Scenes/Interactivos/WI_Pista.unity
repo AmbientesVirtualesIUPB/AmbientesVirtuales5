@@ -2515,6 +2515,10 @@ PrefabInstance:
       propertyPath: contadorTiempo
       value: 
       objectReference: {fileID: 527231989}
+    - target: {fileID: 4944972877412965348, guid: 288b0c8d378c27a4a90094432fcd0ae6, type: 3}
+      propertyPath: totalCheckpoints
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 4944972877412965350, guid: 288b0c8d378c27a4a90094432fcd0ae6, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -5416,6 +5420,10 @@ PrefabInstance:
       propertyPath: contadorTiempo
       value: 
       objectReference: {fileID: 527231989}
+    - target: {fileID: 4944972877412965348, guid: 288b0c8d378c27a4a90094432fcd0ae6, type: 3}
+      propertyPath: totalCheckpoints
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 4944972877412965350, guid: 288b0c8d378c27a4a90094432fcd0ae6, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -7602,6 +7610,10 @@ PrefabInstance:
       propertyPath: contadorTiempo
       value: 
       objectReference: {fileID: 527231989}
+    - target: {fileID: 4944972877412965348, guid: 288b0c8d378c27a4a90094432fcd0ae6, type: 3}
+      propertyPath: totalCheckpoints
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 4944972877412965350, guid: 288b0c8d378c27a4a90094432fcd0ae6, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -9751,6 +9763,10 @@ PrefabInstance:
       propertyPath: contadorTiempo
       value: 
       objectReference: {fileID: 527231989}
+    - target: {fileID: 4944972877412965348, guid: 288b0c8d378c27a4a90094432fcd0ae6, type: 3}
+      propertyPath: totalCheckpoints
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 4944972877412965350, guid: 288b0c8d378c27a4a90094432fcd0ae6, type: 3}
       propertyPath: useSounds
       value: 1
