@@ -233,6 +233,18 @@ PrefabInstance:
       propertyPath: finalScaleReference
       value: 0.8843792
       objectReference: {fileID: 0}
+    - target: {fileID: 5295392427406382361, guid: 469e46b2ef176034889461de993f24af, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5295392427406382361, guid: 469e46b2ef176034889461de993f24af, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5295392427406382361, guid: 469e46b2ef176034889461de993f24af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9025534110481784340, guid: 469e46b2ef176034889461de993f24af, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.15

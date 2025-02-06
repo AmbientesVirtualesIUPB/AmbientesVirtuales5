@@ -20,12 +20,6 @@ public class ControladorAnimaciones : MonoBehaviour
         StartCoroutine(Actualizador());
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        
-    }
-
     IEnumerator Actualizador()
     {
         while (true)
