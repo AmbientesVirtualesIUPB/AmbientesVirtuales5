@@ -14,14 +14,6 @@ public class ManagerScene : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-
-            // Evita que se destruya cuando cambia de escena
-            DontDestroyOnLoad(gameObject);
-        }
-        // Si ya existe otra instancia y no es esta, destruye esta para mantener solo una
-        else if (instance != this)
-        {
-            Destroy(gameObject);
         }
     }
 

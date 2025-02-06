@@ -129,6 +129,7 @@ public class Conducir : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log(DatosCanvasInformativo.voltiosVelocidad);
         carRigidbody = GetComponent<Rigidbody>(); // Inicializamos el componenete rigibody para acceder a su masa
         carRigidbody.mass = 1400 + DatosCanvasInformativo.pesoFurtivo; // Asignamos a la masa el valor adicional dependiendo del peso total del furtivo
         maxSpeed = maxSpeed + DatosCanvasInformativo.voltiosVelocidad; // Asignamos a la velocidad el valor adicional dependiendo de la bateria elegida

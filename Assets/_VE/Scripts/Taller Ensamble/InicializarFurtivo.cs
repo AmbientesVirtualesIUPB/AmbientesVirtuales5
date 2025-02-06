@@ -192,15 +192,6 @@ public class InicializarFurtivo : MonoBehaviour
     }
 
     /// <summary>
-    /// Metodo invocado desde BtnSalir en nuestro canvas para salir de la escena de personalizacion y cambiar se escena
-    /// </summary>
-    public void SalirScena()
-    {
-        PantallaCarga.SetActive(true); // Activar la pantalla de carga.  
-        ManagerScene.instance.CargarEscenaAsincronamente("C_Pista");
-    }
-
-    /// <summary>
     /// Currutina para el encendido de las luces
     /// </summary>
     IEnumerator EncenderLuces()
