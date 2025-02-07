@@ -31,9 +31,9 @@ public class LapsManager : MonoBehaviour
         {
             actualCheckpoint = checkpointNumero; // Actualizamos el checkpoint actual
         }
-
+        
         // Verifica si el collider es un LineaMeta y si ya pasó por todos los checkpoint, de ser así, se da como finalizada la vuelta
-        else if (actualCheckpoint == totalCheckpoints)
+        if (actualCheckpoint == totalCheckpoints)
         {
             contadorTiempo.DetenerContador(); // Detenemos el contador de tiempo
             vueltasCompletadas++; // Aumentamos las vueltas

@@ -18,7 +18,6 @@ public class Clickeable : MonoBehaviour
 
     public void OnMouseDown()
     {
-        print("cik");
         if (eventoClick != null)
         {
             eventoClick.Invoke();
