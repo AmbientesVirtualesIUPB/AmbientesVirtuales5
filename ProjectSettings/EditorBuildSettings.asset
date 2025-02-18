@@ -5,31 +5,34 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/_VE/Scenes/Constructores/C_Login.unity
     guid: 211ca8a18014b2144b2c3b59881bbc53
-  - enabled: 1
+  - enabled: 0
     path: Assets/_VE/Scenes/Constructores/C_Pista.unity
     guid: 942f7528b7452c84ca38607e47d946e3
-  - enabled: 1
+  - enabled: 0
     path: Assets/_VE/Scenes/Constructores/C_Taller.unity
     guid: ba2097ce6d8de3246bd731d618cc3c44
-  - enabled: 1
+  - enabled: 0
     path: Assets/_VE/Scenes/Graficos/Login/LP_Login.unity
     guid: de43cba875160e042b3d95464dedf3bf
-  - enabled: 1
+  - enabled: 0
     path: Assets/_VE/Scenes/Graficos/Pista/HP_Pista.unity
     guid: 05f503d5301d10b488bd1b2760c59d5f
-  - enabled: 1
+  - enabled: 0
     path: Assets/_VE/Scenes/Graficos/Taller Ensamble/HP_Taller.unity
     guid: d0528939563310b409aeb98328a7a360
-  - enabled: 1
+  - enabled: 0
     path: Assets/_VE/Scenes/Interactivos/WI_Login.unity
     guid: d18f3b6905bf02c41b3452346dc0ceae
-  - enabled: 1
+  - enabled: 0
     path: Assets/_VE/Scenes/Interactivos/WI_Pista.unity
     guid: 00d54c5ad0a49d447b4e4ab7e39b3336
-  - enabled: 1
+  - enabled: 0
     path: Assets/_VE/Scenes/Interactivos/WI_Taller.unity
     guid: b1443c414c5b29e4a90d6a6001aa77a3
+  - enabled: 1
+    path: Packages/io.fourplayers.odin/Runtime/PruebaOdin.unity
+    guid: cd2e416ba07c1434296cfc161e46d69d
   m_configObjects: {}
