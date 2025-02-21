@@ -9,10 +9,15 @@ public class Conducir : MonoBehaviour
     [Space(10)]
     [Range(20, 190)]
     public int              maxSpeed = 30; // La velocidad máxima que puede alcanzar el coche en km/h.
+    [HideInInspector]
+    public int              velocidadOriginal; // Referencia a la velocidad antes de cualquier turbo
     [Range(10, 120)]
     public int              maxReverseSpeed = 20; // La velocidad máxima que puede alcanzar el coche en reversa dada en km/h
     [Range(1, 10)]
     public int              accelerationMultiplier = 2; // Qué tan rápido puede acelerar el auto. 1 es una aceleración lenta y 10 es la más rápida
+    [HideInInspector]
+    public int              aceleracionOriginal; // Referencia a la aceleracion antes de cualquier turbo
+
     [Space(10)]
     [Range(10, 45)]
     public int              maxSteeringAngle = 27; // El ángulo máximo que pueden alcanzar los neumáticos al girar el volante.
@@ -135,6 +140,9 @@ public class Conducir : MonoBehaviour
         accelerationMultiplier = accelerationMultiplier + DatosCanvasInformativo.kilovatiosAceleracion; // Asignamos a la aceleracion el valor adicional dependiendo de la bateria elegida
         brakeForce = brakeForce + DatosCanvasInformativo.llantasFrenado; // Asignamos a la fuerza de frenado el valor adicional dependiendo de las llantas elegida
         bodyMassCenter.y = DatosCanvasInformativo.centroMasa; // Asignamos el centro de masa segun la carroceria elegida
+
+        velocidadOriginal = maxSpeed; // Guardamos la velocidad original del furtivo
+        aceleracionOriginal = accelerationMultiplier; // Guardamos la aceleracion original del furtivo
 
         //Nos aseguramos de que estos dos audios inicien desactivados
         //carEngineSound.enabled = false; // Desactivamos el sonido del apagado del motor

@@ -72,27 +72,38 @@ public class Carrera : MonoBehaviour
     {
         if (!carreraIniciada)
         {
+            txtInicioSombra.gameObject.SetActive(true);
+            txtInicio.color = Color.red;
+            txtInicio.text = "3";
+            txtInicioSombra.text = "3";
+
             luces[0].gameObject.SetActive(true);
-            numero3.SetActive(true);
+            //numero3.SetActive(true);
             sonidoArranque.Play();
 
             yield return new WaitForSeconds(1.5f);
 
+            txtInicio.color = Color.red;
+            txtInicio.text = "2";
+            txtInicioSombra.text = "2";
             luces[1].gameObject.SetActive(true);
-            numero3.SetActive(false);
-            numero2.SetActive(true);
+            //numero3.SetActive(false);
+            //numero2.SetActive(true);
 
             yield return new WaitForSeconds(1.3f);
 
+            txtInicio.color = Color.yellow;
+            txtInicio.text = "1";
+            txtInicioSombra.text = "1";
+
             luces[2].gameObject.SetActive(true);
-            numero2.SetActive(false);
-            numero1.SetActive(true);
+            //numero2.SetActive(false);
+            //numero1.SetActive(true);
 
             yield return new WaitForSeconds(1.4f);
-            numero1.SetActive(false);
+            //numero1.SetActive(false);
 
-            luces[3].gameObject.SetActive(true);
-            txtInicioSombra.gameObject.SetActive(true);
+            luces[3].gameObject.SetActive(true);    
             txtInicio.color = Color.green;
             txtInicio.text = "GO";
             txtInicioSombra.text = "GO";
