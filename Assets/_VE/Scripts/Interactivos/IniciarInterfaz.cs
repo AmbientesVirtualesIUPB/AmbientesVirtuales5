@@ -19,5 +19,4 @@ public class IniciarInterfaz : MonoBehaviour
     {
         Application.OpenURL(url);
     }
-
 }

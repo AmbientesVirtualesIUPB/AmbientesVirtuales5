@@ -3072,7 +3072,7 @@ MonoBehaviour:
   datosPersonalizacion: 
   debugEnConsola: 1
   datosFurtivo: 
-  escenaACargar: C_Taller
+  escenaACargar: C_Cis
 --- !u!4 &1671337983
 Transform:
   m_ObjectHideFlags: 0
