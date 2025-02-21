@@ -34,6 +34,7 @@ public class SolicitaTurno : MonoBehaviour
     private void OnMouseDown()
     {
         // Iniciamos currutina
+        Debug.Log("f");
         StartCoroutine(DarTurno());
     }
 
